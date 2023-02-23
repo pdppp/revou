@@ -1,0 +1,118 @@
+/* http://meyerweb.com/epic/tools/css/reset/ 
+v2.0 | 20110126
+licence : none (public domain)
+*/
+
+table{
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+header{
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+background-color : lightgrey;
+border-bottom: 2px solid black;
+}
+
+.navbar {
+    display: flex;
+    border: 5px;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.navbar div {
+    padding: 5px;
+    text-align: center;
+    font-size: 10sp;
+    color: black;
+    border: 1px solid;
+    display: flex;
+}
+
+.logo {
+    padding-left: 40px;
+    padding-bottom: 10px;
+    margin-right: auto;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}  
+
+.hero-image{
+    width: 150%;
+    height: 100%;
+}
+
+.hero-line{
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.headquarter{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+
+.hd-img{
+    width: 200px;
+    height: 200px;
+
+}
+
+.headquarter-gallery{
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.text{
+    justify-content: center;
+    display: flex;
+}
+
+.hd-line{
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.txt{
+    padding-left: 40px;
+}
+.form-section{
+    display: grid;
+
+    justify-content: left;
+    padding-left: 40px;
+    align-items: start;
+    width: 100%;
+}
+
+.result{
+    margin: 50px auto 0;
+}
